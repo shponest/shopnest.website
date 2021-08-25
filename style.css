@@ -1,0 +1,75 @@
+.bgimg{
+    background-image: url(../Wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+}
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.headerset h1{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 34px;
+    padding: 20px;
+}
+.headerset h1:hover{
+    font-size: 74px;
+    color: rgb(184, 165, 165);
+}
+.headerset h6:hover{
+    font-size: 24px;
+    color: rgb(148, 131, 131);
+}
+@media only screen and (max-width: 800px){
+
+                 .headerset h1{ font-size: 30px;
+                 font-weight: bold;
+                 font-family: cursive;
+                 transition: 0.7s ease;}
+
+                 .headerset{
+                    padding: 300px;
+                    box-sizing: border-box;
+                    margin-top: 100px;
+
+}
+.posts{
+    color: black;
+    margin-top: 280px;
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+h1{
+    color: black;
+    margin-top: 250px;
+}
+
+.navbar-nav li a{
+    transition: 0.7s ease;
+    margin: 18px;
+}
+.navbar-nav li a:hover{
+    background-color: black;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+}
+.card-group {
+    margin: 25px;
+    transition: 0.7s ease;
+}
+.card{
+    margin: 25px;
+}
+.card:hover {
+    opacity: 0.3;
+}
